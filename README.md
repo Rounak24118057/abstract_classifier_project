@@ -17,7 +17,7 @@ Paste an abstract to see the predicted subject and how sure the model is, or upl
 - Final dataset: **2,818 abstracts** (960 Science, 945 Business, 913 Social Science), saved in `dataset.csv`.
 - `raw_dataset.csv` is the data before cleaning.
 
-## What we did
+## What I did
 
 1. **Cleaning the text:** lowercase, remove HTML tags, links and punctuation, remove stop words, split into words (NLTK tokenization), reduce words to their base form (NLTK WordNet lemmatization).
 2. **Turning words into numbers:** TF-IDF with 5,000 features, using single words and word pairs.
